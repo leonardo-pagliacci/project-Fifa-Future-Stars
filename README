@@ -1,61 +1,49 @@
-# The Challenge:
+# Ironhack FC Future Stars Analysis
 
-You are a team of scouts at Ironhack FC. You have been tasked with examining the attached dataset to understand which attributes are the best predictors of a football player's potential so that the club can sign future stars. Because the Chairman of Ironhack FC is a busy person, they have requested that you provide your findings in a short 5 minute presentation. The Chairman doesn't understand anything about coding, so has requested that there is no code shown in the presentation. Finally, the Chairman has asked you to provide the top three players that your model recommends signing under a budget of $100M. 
+## Overview
+This repository contains a Jupyter Notebook detailing a comprehensive analysis aimed at identifying future football stars for Ironhack FC within a $100M budget. Utilizing advanced data analytics and machine learning models, the notebook explores player data to predict future performance and potential, aiding in strategic decision-making for player acquisitions.
 
-## Objectives:
-Ask interesting and thoughtful questions and find the data to answer them.
-Apply the statistical techniques we have learned.
-Create multiple models and compare them, so that you can convince the Chairman that your final model is the best. 
-Create useful and clear graphs.
-5 min presentation in powerpoint/google slides
-Dataset
-Train Dataset -> Here
+## Getting Started
 
-Test Dataset -> Here
+### Prerequisites
+Ensure you have Python 3.x installed on your system along with Jupyter Notebook or JupyterLab. The analysis relies on several Python libraries, including pandas, numpy, matplotlib, seaborn, and scikit-learn.
 
-This data set includes:
+### Installation
+1. **Clone the repository** to get a local copy on your computer:
+   ```bash
+   git clone https://github.com/yourusername/ironhack-fc-future-stars.git
+   ```
 
-##EA Sports FIFA 19 Game data:
-Player Name
-Club of the Player
-League
-Position
-Pace
-Shooting
-Passing
-Dribbling
-Defending
-Physical
-##Transfermarkt extra info by player:
-Date of Birth
-Nationality
-Height
-Foot
-Day Joined the current club
-Day of Contract End
-Market Value of the Player
-Instagram and Facebook data by player:
-Number of followers on Instagram
-Number of likes on Facebook of the club in which the player has a contract
-ESPN FC data from the past 5 years performance of each player
-GS: Games Started
-SB: Games Substituted
-G: Goals Scored
-A: Assists
-SH: Shots
-SG: Shots on Goal
-FC: Fouls Committed
-FS: Fouls Suffered
-YC: Yellow Cards
-RC: Red Cards
-Deliverables
-##A presentation that includes:
-Thought process 
-Brief overview of analytical processes that you used
-Which players should Ironhack FC buy.
-Tips & Tricks
-Organize yourself (don’t get lost!). Respect deadlines.
-Ask for help but don’t forget that Google is your friend.
-Define a simple approach first. You never know how the data can betray you.
-Document your work.
-Before making a graph, think about what you want to represent.
+2. **Navigate to the project directory**:
+   ```bash
+   cd ironhack-fc-future-stars
+   ```
+
+3. **Install the required Python libraries** by running:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Running the Analysis
+Open the Jupyter Notebook in your preferred environment:
+
+```bash
+jupyter notebook Ironhack_FC_Future_Stars_Analysis.ipynb
+```
+
+Follow the instructions and execute the cells sequentially to reproduce the analysis and view the recommendations.
+
+## Analysis Overview
+The notebook is structured as follows:
+
+- **Data Preprocessing**: Cleaning and preparing player data for analysis.
+- **Exploratory Data Analysis (EDA)**: Visualizing data to identify trends and patterns.
+- **Feature Engineering**: Enhancing the dataset with new, insightful features.
+- **Model Building**: Developing a machine learning model to predict player potential.
+- **Evaluation**: Assessing the model's performance and identifying top player recommendations within the budget constraint.
+
+## Recommendations
+The final section of the notebook presents a detailed analysis of the top player recommendations for Ironhack FC, considering both performance potential and budget constraints.
+
+## Contributing
+Your contributions are welcome! If you have suggestions for improving the analysis or encounter any issues, please feel free to open an issue or submit a pull request.
